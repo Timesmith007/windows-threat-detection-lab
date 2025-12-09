@@ -157,10 +157,24 @@ It directly supports roles such as:
 
 #  Repository
 
-```
-/screenshots
-README.md
-```
+## 1️⃣ Event ID 4720 — New User Created
+![Event 4720](./screenshots/1_New_User_Created_Event_ID_4720.png)
+
+---
+
+## 2️⃣ Event ID 4732 — User Added to Administrators
+![Event 4732](./screenshots/2_User_Added_to_Administrators_Event_ID_4732.png)
+
+---
+
+## 3️⃣ Event ID 4625 — Failed Login Attempts
+![Event 4625](./screenshots/3_Failed_Login_Attempts.png)
+
+---
+
+## 4️⃣ Event ID 4624 — Successful Login
+!
+
 
 ---
 #  Contact  
