@@ -173,8 +173,32 @@ It directly supports roles such as:
 ---
 
 ## 4️⃣ Event ID 4624 — Successful Login
-!
+![Event 4624](./screenshots/4_Successful_Login_Event_ID_4624.png)
 
+---
+
+## 5️⃣ Sysmon Event ID 1 — whoami
+![Sysmon Event 1 whoami](./screenshots/5_Suspicious_PowerShell_Commands_Sysmon_Event_ID_1_whoami.png)
+
+---
+
+## 6️⃣ Sysmon Event ID 1 — Get-Process
+![Sysmon Event 1 Get-Process](./screenshots/6_Suspicious_PowerShell_Commands_Sysmon_Event_ID_1_Get-Process.png)
+
+---
+
+## 7️⃣ Sysmon Event ID 1 — Invoke-WebRequest
+![Sysmon Event 1 Invoke-WebRequest](./screenshots/7_Suspicious_PowerShell_Commands_Sysmon_Event_ID_1_Invoke-WebRequest.png)
+
+---
+
+## 8️⃣ Sysmon Event ID 3 — Network Connection
+![Sysmon Event 3](./screenshots/8_Suspicious_PowerShell_Commands_Sysmon_Event_ID_3.png)
+
+---
+
+## 9️⃣ Sysmon Event ID 11 — FileCreate
+![Sysmon Event 11](./screenshots/9_Sysmon_Event_ID_11_FileCreate.png)
 
 ---
 #  Contact  
