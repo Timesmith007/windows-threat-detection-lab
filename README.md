@@ -158,49 +158,48 @@ It directly supports roles such as:
 #  Repository
 
 ## 1️⃣ Event ID 4720 — New User Created
-![Event 4720](./screenshots/1_New_User_Created_Event_ID_4720.png)
+![Event 4720]("./screenshots/1_New_User_Created_(Event_ID_4720).png")
 
 ---
 
 ## 2️⃣ Event ID 4732 — User Added to Administrators
-![Event 4732](./screenshots/2_User_Added_to_Administrators_Event_ID_4732.png)
+![Event 4732]("./screenshots/2_User_Added_to_Administrators(Event_ID_4732).png")
 
 ---
 
 ## 3️⃣ Event ID 4625 — Failed Login Attempts
-![Event 4625](./screenshots/3_Failed_Login_Attempts.png)
+![Event 4625]("./screenshots/3_Failed_Login_Attempts.png")
 
 ---
 
 ## 4️⃣ Event ID 4624 — Successful Login
-![Event 4624](./screenshots/4_Successful_Login_Event_ID_4624.png)
+![Event 4624]("./screenshots/4_Successful_Login(Event_ID_4624).png")
 
 ---
 
 ## 5️⃣ Sysmon Event ID 1 — whoami
-![Sysmon Event 1 whoami](./screenshots/5_Suspicious_PowerShell_Commands_Sysmon_Event_ID_1_whoami.png)
+![Sysmon Event 1 whoami]("./screenshots/5_Suspicious_PowerShell_Commands(Sysmon_Event_ID_1)(whoami).png")
 
 ---
 
 ## 6️⃣ Sysmon Event ID 1 — Get-Process
-![Sysmon Event 1 Get-Process](./screenshots/6_Suspicious_PowerShell_Commands_Sysmon_Event_ID_1_Get-Process.png)
+![Sysmon Event 1 Get-Process]("./screenshots/6_Suspicious_PowerShell_Commands(Sysmon_Event_ID_1)(Get-Process).png")
 
 ---
 
 ## 7️⃣ Sysmon Event ID 1 — Invoke-WebRequest
-![Sysmon Event 1 Invoke-WebRequest](./screenshots/7_Suspicious_PowerShell_Commands_Sysmon_Event_ID_1_Invoke-WebRequest.png)
+![Sysmon Event 1 Invoke-WebRequest]("./screenshots/7_Suspicious_PowerShell_Commands(Sysmon_Event_ID_1)(Invoke-WebRequest).png")
 
 ---
 
 ## 8️⃣ Sysmon Event ID 3 — Network Connection
-![Sysmon Event 3](./screenshots/8_Suspicious_PowerShell_Commands_Sysmon_Event_ID_3.png)
+![Sysmon Event 3]("./screenshots/8_Suspicious_PowerShell_Commands(Sysmon_Event_ID_3).png")
 
 ---
 
 ## 9️⃣ Sysmon Event ID 11 — FileCreate
-![Sysmon Event 11](./screenshots/9_Sysmon_Event_ID_11_FileCreate.png)
+![Sysmon Event 11]("./screenshots/9_Sysmon_Event_ID_11_FileCreate.png")
 
----
 #  Contact  
 If you have questions or want to connect:
 
