@@ -41,8 +41,7 @@ Command:
 net user testuser Password123! /add
 ```
 
- *(Insert screenshot)*
-
+![Event 4720](./screenshots/1_New User Created (Event ID 4720).png)
 ---
 
 ## 2.Event ID 4732 — User Added to Administrators
@@ -52,7 +51,7 @@ Command:
 net localgroup administrators testuser /add
 ```
 
-📸 *(Insert screenshot)*
+![Event 4732](./screenshots/2_User Added to Administrators (Event ID 4732).png)
 
 ---
 
@@ -60,7 +59,7 @@ net localgroup administrators testuser /add
 
 Multiple incorrect logins were used to simulate password guessing or brute force activity.
 
-📸 *(Insert screenshot)*
+![Event 4625](./screenshots/3_Failed Login Attempts.png)
 
 ---
 
@@ -68,13 +67,13 @@ Multiple incorrect logins were used to simulate password guessing or brute force
 
 A successful login appears after the failed attempts, indicating access was eventually gained.
 
-📸 *(Insert screenshot)*
-
+![Event 4624](./screenshots/4_Successful Login (Event ID 4624).png)
 ---
 
 #  5.PowerShell Recon (Sysmon Event ID 1)
 
 Attackers often run small commands to check the system they’re on.
+![Sysmon Event 1 whoami](./screenshots/5_Suspicious PowerShell Commands (Sysmon Event ID 1) (whoami).png)
 
 ---
 
@@ -94,7 +93,7 @@ whoami
 powershell.exe -Command "Get-Process"
 ```
 
- *(Insert screenshot)*
+![Sysmon Event 1 Get-Process](./screenshots/6_Suspicious PowerShell Commands (Sysmon Event ID 1)(Get-Process).png)
 
 ---
 
@@ -114,7 +113,9 @@ Captured logs include:
 - **Event ID 1** — Process creation (PowerShell)  
 - **Event ID 3** — Outbound network connection  
 
- *(Insert screenshots)*
+![Sysmon Event 1 Invoke-WebRequest](./screenshots/7_Suspicious PowerShell Commands (Sysmon Event ID 1)(Invoke-WebRequest).png)
+![Sysmon Event 3 Network](./screenshots/8_Suspicious PowerShell Commands (Sysmon Event ID 3).png)
+
 
 ---
 
@@ -123,7 +124,8 @@ Captured logs include:
 Sysmon logs whenever a new file is created.  
 This can help spot dropped payloads or scripts.
 
- *(Insert screenshot)*
+![Sysmon Event 11 FileCreate](./screenshots/9_Sysmon Event ID 11 — FileCreate.png)
+
 
 ---
 
