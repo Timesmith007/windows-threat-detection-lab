@@ -41,7 +41,7 @@ Command:
 net user testuser Password123! /add
 ```
 
-![Event 4720](./screenshots/1_New User Created (Event ID 4720).png)
+![Event 4720](./screenshots/1_New_User_Created_Event_ID_4720.png)
 ---
 
 ## 2.Event ID 4732 — User Added to Administrators
@@ -51,7 +51,7 @@ Command:
 net localgroup administrators testuser /add
 ```
 
-![Event 4732](./screenshots/2_User Added to Administrators (Event ID 4732).png)
+![Event 4732](./screenshots/2_User_Added_to_Administrators_Event_ID_4732.png)
 
 ---
 
@@ -59,45 +59,36 @@ net localgroup administrators testuser /add
 
 Multiple incorrect logins were used to simulate password guessing or brute force activity.
 
-![Event 4625](./screenshots/3_Failed Login Attempts.png)
-
+![Event 4625](./screenshots/3_Failed_Login_Attempts.png)
 ---
 
 ##  4.Event ID 4624 — Successful Login
 
 A successful login appears after the failed attempts, indicating access was eventually gained.
 
-![Event 4624](./screenshots/4_Successful Login (Event ID 4624).png)
+![Event 4624](./screenshots/4_Successful_Login_Event_ID_4624.png)
 ---
 
 #  5.PowerShell Recon (Sysmon Event ID 1)
 
 Attackers often run small commands to check the system they’re on.
-![Sysmon Event 1 whoami](./screenshots/5_Suspicious PowerShell Commands (Sysmon Event ID 1) (whoami).png)
+![Sysmon Event 1 whoami](./screenshots/5_Suspicious_PowerShell_Commands_Sysmon_Event_ID_1_whoami.png)
+---
+
 
 ---
 
-##  6.whoami
-
-```powershell
-whoami
-```
-
- *(Insert screenshot)*
-
----
-
-##  7.Get-Process
+##  6.Get-Process
 
 ```powershell
 powershell.exe -Command "Get-Process"
 ```
 
-![Sysmon Event 1 Get-Process](./screenshots/6_Suspicious PowerShell Commands (Sysmon Event ID 1)(Get-Process).png)
+![Sysmon Event 1 Get-Process](./screenshots/6_Suspicious_PowerShell_Commands_Sysmon_Event_ID_1_Get-Process.png)
 
 ---
 
-#  8.File Download via PowerShell
+#  7.File Download via PowerShell
 
 ##  Invoke-WebRequest (Sysmon Event ID 1 & 3)
 
@@ -113,19 +104,20 @@ Captured logs include:
 - **Event ID 1** — Process creation (PowerShell)  
 - **Event ID 3** — Outbound network connection  
 
-![Sysmon Event 1 Invoke-WebRequest](./screenshots/7_Suspicious PowerShell Commands (Sysmon Event ID 1)(Invoke-WebRequest).png)
-![Sysmon Event 3 Network](./screenshots/8_Suspicious PowerShell Commands (Sysmon Event ID 3).png)
+![Sysmon Event 1 Invoke-WebRequest](./screenshots/7_Suspicious_PowerShell_Commands_Sysmon_Event_ID_1_Invoke-WebRequest.png)
+
+![Sysmon Event 3](./screenshots/8_Suspicious_PowerShell_Commands_Sysmon_Event_ID_3.png)
+
 
 
 ---
 
-#  9.File Creation (Sysmon Event ID 11)
+#  8.File Creation (Sysmon Event ID 11)
 
 Sysmon logs whenever a new file is created.  
 This can help spot dropped payloads or scripts.
 
-![Sysmon Event 11 FileCreate](./screenshots/9_Sysmon Event ID 11 — FileCreate.png)
-
+![Sysmon Event 11](./screenshots/9_Sysmon_Event_ID_11_FileCreate.png)
 
 ---
 
